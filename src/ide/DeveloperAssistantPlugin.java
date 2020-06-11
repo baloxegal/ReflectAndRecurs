@@ -9,7 +9,7 @@ import source.Button;
 public class DeveloperAssistantPlugin {
 	
 	public static List<String> getSuggestions(Class<?> sourceClass) {
-		
+				
 		if (sourceClass == Button.class) {
 			
 			List<String> methodList = new ArrayList<String>();
